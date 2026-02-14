@@ -35,8 +35,8 @@ const initialMemories: Memory[] = [
   {
     id: 'chats',
     title: 'Late Night Talks',
-    description: 'Countless messages, voice notes, and video calls. Every word brought us closer, bridging the distance between our hearts.',
-    date: '2023-08-01',
+    description: 'Ye toh mai roz chahta hun ki ho....aur kahin n kahin aapka bhi mnn krta hoga ki humare bich baatein ho....humne sath baat kr ke kitni sari memories banayi kitni baatein ki...thodi kathi thodi mithi thodi chulbuli kabhi mazakiya kabhi chugliya bahot si memories kabhi baaton k pitara khatam hee nai huya( i know nazar n lage thu thu 🤞😁).... pr meri vajah se hum baat nai kr pate h jaisa hum krte thee....pr Puchku i promise hum pakka isse bhi zyada baat karenge .......bss kuch time aur fir mai itna aapke liye time nikalunga ki hum jitna chahe baat kr skte h....haan haan mujhe pata ki hamesha sirf call pe hee baat nai krni ....aage ke liye krna h.....taki hum sath reh ske hamesha khushi se.....fir hume kabhi phone ki  v zarurat na pade baat krne ke liye 😁',
+    date: '',
     type: 'chat',
     icon: '💬',
     position: { x: 2, z: 2 },
