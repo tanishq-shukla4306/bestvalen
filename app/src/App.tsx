@@ -172,6 +172,7 @@ function App() {
           onSceneChange={handleSceneChange}
           onToggleNightMode={toggleNightMode}
           onShowFinal={handleShowFinal}
+          onSecretCodeEnter={unlockSecret}
         />
       )}
 

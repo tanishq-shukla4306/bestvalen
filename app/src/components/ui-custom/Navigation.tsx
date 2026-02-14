@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import React from 'react';
 import { 
   Home, 
   TreePine, 
@@ -18,6 +19,7 @@ interface NavigationProps {
   onSceneChange: (scene: string) => void;
   onToggleNightMode: () => void;
   onShowFinal: () => void;
+  onSecretCodeEnter?: (code: string) => void;
 }
 
 const scenes = [
@@ -34,7 +36,18 @@ export function Navigation({
   onSceneChange,
   onToggleNightMode,
   onShowFinal,
+  onSecretCodeEnter,
 }: NavigationProps) {
+  const [secretInput, setSecretInput] = React.useState('');
+
+  const handleSecretSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (secretInput.trim() && onSecretCodeEnter) {
+      onSecretCodeEnter(secretInput.toLowerCase().trim());
+      setSecretInput('');
+    }
+  };
+
   return (
     <>
       {/* Top bar */}
@@ -123,15 +136,36 @@ export function Navigation({
           </Button>
         </div>
 
-        {/* Hint text */}
-        <motion.p
+        {/* Hint text and mobile input */}
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2 }}
-          className="text-center text-xs text-gray-500 mt-2"
+          className="text-center mt-2"
         >
-          Try typing "forever", "love", or "us" for secrets ✨
-        </motion.p>
+          {/* Desktop hint */}
+          <p className="hidden sm:block text-xs text-gray-500">
+            Try typing "forever", "love", or "us" for secrets ✨
+          </p>
+          
+          {/* Mobile input */}
+          <form onSubmit={handleSecretSubmit} className="sm:hidden flex items-center justify-center gap-2">
+            <input
+              type="text"
+              value={secretInput}
+              onChange={(e) => setSecretInput(e.target.value)}
+              placeholder="Enter secret code..."
+              className="glass px-3 py-1 rounded-full text-xs text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-pink-500"
+            />
+            <Button
+              type="submit"
+              size="sm"
+              className="bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white rounded-full px-3 py-1 text-xs"
+            >
+              ✨
+            </Button>
+          </form>
+        </motion.div>
       </motion.div>
     </>
   );
