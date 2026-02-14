@@ -24,9 +24,9 @@ const initialMemories: Memory[] = [
   },
   {
     id: 'hangout',
-    title: 'Our Special Place',
-    description: 'Under the old oak tree where we shared our dreams. The leaves whispered secrets as we planned our future together.',
-    date: '2023-07-08',
+    title: 'Our Special Day',
+    description: 'The day i will never forget throuout my life .....the very special day of my life .....jb humne apni feelings share ki thi .....the day you start trusting me the most .....and believe  me Budhu   i will never break it .....ye voh din h jisle liye mai bhagwanji roz thank you bolta hun ki unhone uss din aisi situation banayi ki mai aapse baat kr paya aur mai aapse apni feeling express kr paya',
+    date: '2024-12-22',
     type: 'hangout',
     icon: '🌳',
     position: { x: -2, z: 3 },
@@ -57,7 +57,7 @@ const initialMemories: Memory[] = [
 const initialStars: Star[] = [
   { id: 'star-1', x: 100, y: 80, size: 4, type: 'unlocked', memoryId: 'meeting', connectedTo: ['star-2'], label: 'First Meeting' },
   { id: 'star-2', x: 200, y: 120, size: 5, type: 'unlocked', memoryId: 'first-date', connectedTo: ['star-3'], label: 'First Date' },
-  { id: 'star-3', x: 320, y: 90, size: 4, type: 'unlocked', memoryId: 'hangout', connectedTo: ['star-4'], label: 'Special Place' },
+  { id: 'star-3', x: 320, y: 90, size: 4, type: 'unlocked', memoryId: 'hangout', connectedTo: ['star-4'], label: 'Special Day' },
   { id: 'star-4', x: 440, y: 140, size: 5, type: 'unlocked', memoryId: 'chats', connectedTo: ['star-5'], label: 'Late Nights' },
   { id: 'star-5', x: 560, y: 100, size: 6, type: 'unlocked', memoryId: 'milestone', connectedTo: ['star-6'], label: 'One Year' },
   { id: 'star-6', x: 680, y: 80, size: 4, type: 'future', connectedTo: ['star-7'], label: 'Next Adventure', date: '2025-06-15' },
