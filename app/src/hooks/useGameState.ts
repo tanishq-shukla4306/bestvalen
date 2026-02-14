@@ -45,8 +45,8 @@ const initialMemories: Memory[] = [
   {
     id: 'milestone',
     title: 'One Year Together',
-    description: '365 days of love, growth, and endless memories. Here\'s to many more years of building our world together.',
-    date: '2024-06-15',
+    description: 'Humara pura saal bahot upar niche huya......bahot kuch huya .....fir bhi hum aaj bhi sath m .....mai chahta hun ki hum aise hee hamesha sath rhe ....ye jo dusra saal shuru huya ....i promise you Budhu....maine jo bhi kaha h mai ye saal pura hone se pehle karunga......har ek voh chiz jo maine kaha h.....because i want to show you that i love you....from the bottom of my heart.....❤️',
+    date: '2025-12-22',
     type: 'milestone',
     icon: '💕',
     position: { x: 0, z: -3 },
