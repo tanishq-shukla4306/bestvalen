@@ -25,6 +25,7 @@ function App() {
     selectBuilding,
     selectStar,
     toggleNightMode,
+    unlockSecret,
     setShowSecretModal,
   } = useGameState();
 
