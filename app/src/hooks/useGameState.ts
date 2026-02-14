@@ -5,8 +5,8 @@ const initialMemories: Memory[] = [
   {
     id: 'meeting',
     title: 'Where We Met',
-    description: 'The moment our eyes first met, the world seemed to pause. In that crowded room, it felt like destiny had finally found us.',
-    date: '2023-06-15',
+    description: 'BGMI ...ye game isse toh mai life time tk aapke sath khelna chahta hun....ye game mere liye khas tha pr ye aur khas ho gay kyunki iske vajah se mai aapse mil paya.....aap jaise mere piche piche ghum rhi thi 🤭 aur mujhe believe nai hio rha tha ki aap ladki ...mujhe laga ki koi ladka  h.....pr aapki awaaz sunn ke bahot hee khushi huyi thi mujhe ab mai chidha paunga dusro ko 😁....ab sirf aapke sath khelna h mujhe .......bhale hum ye game n khele pr mai humare bacho se toh kahunga ki khele voh ye game😚🤭🌹',
+    date: '2024-08-02',
     type: 'meeting',
     icon: '🏡',
     position: { x: -3, z: -2 },
@@ -25,7 +25,7 @@ const initialMemories: Memory[] = [
   {
     id: 'hangout',
     title: 'Our Special Day',
-    description: 'The day i will never forget throuout my life .....the very special day of my life .....jb humne apni feelings share ki thi .....the day you start trusting me the most .....and believe  me Budhu   i will never break it .....ye voh din h jisle liye mai bhagwanji roz thank you bolta hun ki unhone uss din aisi situation banayi ki mai aapse baat kr paya aur mai aapse apni feeling express kr paya',
+    description: 'The day i will never forget throuout my life .....the very special day of my life .....jb humne apni feelings share ki thi❤️ .....the day you start trusting me the most .....and believe  me Budhu   i will never break it🤞 .....ye voh din h jisle liye mai bhagwanji roz thank you 🙏 bolta hun ki unhone uss din aisi situation banayi ki mai aapse baat kr paya aur mai aapse apni feeling express kr paya🌹💖',
     date: '2024-12-22',
     type: 'hangout',
     icon: '🌳',
