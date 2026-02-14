@@ -15,8 +15,8 @@ const initialMemories: Memory[] = [
   {
     id: 'first-date',
     title: 'Our First Date',
-    description: 'Coffee, laughter, and hours that felt like minutes. We talked until the café closed, not wanting the night to end.',
-    date: '2023-06-22',
+    description: 'Hum zaroor milenge Budhu.....ye mere iss saal k sbse pehla resolution h ki mujhe aapse milna h....jiske baad m aapko milun toh adhe se zyada promise kr lun......ye chiz mai jaldi pura karunga....😊🤞❤️',
+    date: '',
     type: 'date',
     icon: '☕',
     position: { x: 3, z: -1 },
